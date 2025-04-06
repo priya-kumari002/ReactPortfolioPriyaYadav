@@ -1,4 +1,6 @@
 {
+  "homepage": "https://priya-kumari002.github.io/ReactPortfolioPriyaYadav",
+
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +9,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -29,6 +32,7 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "vite": "^6.2.0"
   },
@@ -37,3 +41,8 @@
   "author": "",
   "license": "ISC"
 }
+
+
+
+
+https://github.com/priya-kumari002/ReactPortfolioPriyaYadav
