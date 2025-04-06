@@ -1,0 +1,119 @@
+/* Resume.css */
+
+.resume {
+    padding: 3rem 1.5rem;
+    background-color:  linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .resume-container {
+    max-width: 900px;
+    margin: 0 auto;
+    /* background: #fff; */
+    background-color:  linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-heading {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+    text-align: center;
+  }
+  
+  .contact-info {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  .contact-info a {
+    color: #0073e6;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: 500;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .download-button {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .download-button a {
+    display: inline-flex;
+    align-items: center;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .download-button a:hover {
+    background-color: #005bb5;
+  }
+  
+  .resume-block {
+    margin-bottom: 2rem;
+  }
+  
+  .resume-title {
+    font-size: 1.4rem;
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .resume-item {
+    line-height: 1.6;
+    margin-left: 1rem;
+  }
+  
+  .resume-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .skill-tag {
+    background-color: #e0f0ff;
+    color: #005bb5;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .cert-list {
+    list-style: disc inside;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 600px) {
+    .section-heading {
+      font-size: 1.5rem;
+    }
+  
+    .resume-title {
+      font-size: 1.2rem;
+    }
+  
+    .skill-tag {
+      font-size: 0.8rem;
+      padding: 0.3rem 0.6rem;
+    }
+  }
+  
