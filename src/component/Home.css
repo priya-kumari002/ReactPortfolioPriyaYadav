@@ -104,10 +104,10 @@
     border: 5px solid #00bcd4;
     box-shadow: 0 4px 10px rgba(0, 188, 212, 0.4);
   }
-  .home-image img:hover{
+  /* .home-image img:hover{
     background-image: url("src/assets/images/priya.jpg");
   }
-  
+   */
   /* Responsive */
   @media (min-width: 1024px) {
     .home-content {

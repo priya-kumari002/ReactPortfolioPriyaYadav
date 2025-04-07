@@ -11,7 +11,7 @@ const Project = () => {
     {
       title: "Weather App",
       description: "Live weather updates using OpenWeatherMap API.",
-      link: "https://github.com/priya-kumari002/weatherfor"
+      link: "https://github.com/priya-kumari002/5daysweatherforecast"
     },
     {
       title: "Review-Rating Nodejs Sql",
@@ -26,6 +26,11 @@ const Project = () => {
       {
         title: "Student-Registration Form",
         description: "Manage daily tasks with add,delete,update,store etc",
+        link: "https://github.com/priya-kumari002/Student-Registration-Form"
+      },
+      {
+        title: "Reactjs Portfolio",
+        description: "Contains home,about,skills,projects,resume,contact etc",
         link: "https://github.com/priya-kumari002/Student-Registration-Form"
       }
       

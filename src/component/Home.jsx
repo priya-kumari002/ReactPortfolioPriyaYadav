@@ -14,15 +14,15 @@ const Home = () => {
           </p>
           
           
-        <div className="download-button">
-  <a href="/cvvvvvvPriya.pdf" download>Download CV</a>
-</div>
-
+        {/* <div className="download-button">
+  <a href="src/assets/images/cvvvvvvPriya.pdf" download>Download CV</a>
+</div> */}
+<div className='home-image'><a href="src/assets/images/Priyaa.jpg" color="cyan">See My Profile Click here ---> </a></div>
         </div>
 
-        <div className="home-image">
-          <img src="./src/assets/images/Priyaa.jpg" alt="Priya Kumari" />
-        </div>
+        {/* <div className="home-image">
+          <img src="/src/images/Priyaa.jpg" alt="Priya Kumari" />
+        </div> */}
       </div>
     </section>
   );
