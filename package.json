@@ -1,6 +1,5 @@
 {
-  "homepage": "https://priya-kumari002.github.io/ReactPortfolioPriyaYadav",
-
+  "homepage": "https://Priya-Kumari.github.io/ReactPortfolioPriyaYadav",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -39,9 +38,12 @@
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "main": "eslint.config.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priya-kumari002/ReactPortfolioPriyaYadav.git"
+  },
+  "bugs": {
+    "url": "https://github.com/priya-kumari002/ReactPortfolioPriyaYadav/issues"
+  }
 }
-
-
-
-
